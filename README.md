@@ -1,12 +1,6 @@
 # graph
-Graph class for Data Structure and Algorithm II, Universidad de Oriente, Cuba. Course 2019-2020
-
-lots of implementation about graph theory
-
-all implementations use the STL (Standard Template Library)
-
-the nodes start in 0 (0-index)
-
-maximum of nodes is 1000, if you want change it, then modify the class
-
-use c++11 or above
+Graph class using adjacency list for Data Structure II course, Universidad de Oriente, Cuba. 2019-2020.
+All implementations use the STL (Standard Template Library).
+The nodes start in 0 (0-index),
+Maximum of nodes is 1000, if you want change it, then modify the class
+Use c++11 or above
