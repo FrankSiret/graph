@@ -342,7 +342,7 @@ vector<pair<int, int> > Graph::listOfEdges() const {
     for(int u: _nodes) {
         for(auto p: _G[u]) {
             int v = p.S;
-            if(_isDirected && u > v) swap(u, v);
+            if(!_isDirected && u > v) swap(u, v);
             res.push_back({u,v});
         }
     }
@@ -357,7 +357,7 @@ vector<pair<int, pair<int, int> > > Graph::listOfEdgesWeighted() const {
         for(auto p: _G[u]) {
             int weight = p.F;
             int v = p.S;
-            if(_isDirected && u > v) swap(u, v);
+            if(!_isDirected && u > v) swap(u, v);
             res.push_back({weight,{u,v}});
         }
     }
