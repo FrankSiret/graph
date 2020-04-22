@@ -18,3 +18,5 @@ A lot of Implementations using the graph class created:
 6. Is a node in the graph articualtion point
 7. How many articulation point and bridges there is in the graph
 8. Is the graph biconnected?
+9. Prim algorithm, know the minimun spanning tree
+10. Kruskal algorithm, know the minimun spanning tree, with union-find disjoin-set algorithn
